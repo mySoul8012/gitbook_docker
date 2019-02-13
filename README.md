@@ -28,3 +28,20 @@ http://[服务器ip]:4000/
 
 ### 使用自动化工具进行构建（推荐）
 推荐使用自动化构建工具，在本地自动化构建
+推荐的工具有 
+docker hub https://cloud.docker.com/
+travis-ci  https://travis-ci.org
+daocloud   https://dashboard.daocloud.io
+
+# 日常使用
+当自动化构建完成以后，日常使用如下
+1. 本地clone项目
+```
+git clone [您的github地址]
+```
+2. 在work目录下进行编辑使用详见gitbook的使用教程
+
+# 栗子
+已经有一个已经部署好的啦。
+访问
+http://139.199.225.229:32771/
