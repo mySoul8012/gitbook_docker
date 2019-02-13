@@ -8,7 +8,8 @@ EXPOSE 4000
 RUN npm install gitbook -g;
 RUN npm install gitbook-cli -g;
 # 拷贝文件进入构建目录
-COPY ./build/* ./
+COPY ./* ./
 # 初始化镜像
+WORKDIR /build/work
 RUN gitbook init
 CMD ["gitbook", "serve"]
