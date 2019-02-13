@@ -44,4 +44,4 @@ git clone [您的github地址]
 # 栗子
 已经有一个已经部署好的啦。
 访问
-http://139.199.225.229:32771/
+http://test.iming.info/
